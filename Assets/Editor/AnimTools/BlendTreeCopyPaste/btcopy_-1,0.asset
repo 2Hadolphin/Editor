@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!206 &20600000
+BlendTree:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: btcopy_-1,0
+  m_Childs:
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: a4d8eca24217734468925635bb888a7f, type: 2}
+    m_Threshold: 0.083333336
+    m_Position: {x: 0, y: 4.2843556}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: floatIdleRate
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 14e431615ed1e854fa48fe43f3bafe3a, type: 2}
+    m_Threshold: 0.25
+    m_Position: {x: 0, y: 1.5396276}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: floatHandSpeed
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 52a654bf99db4954caa389ab5863f6e2, type: 2}
+    m_Threshold: 0.5
+    m_Position: {x: 1.1226516, y: 1.127849}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: floatHandSpeed
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 7d1c1e277393baf43ab0d3439c2c6bd2, type: 2}
+    m_Threshold: 0.7500001
+    m_Position: {x: 1.5621411, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: floatHandSpeed
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: -1415363723054471639, guid: 2d5542dddc4f0e9438b648cae56f1966, type: 2}
+    m_Threshold: 1.5833338
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: floatHandSpeed
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 7d1c1e277393baf43ab0d3439c2c6bd2, type: 2}
+    m_Threshold: 2.4166675
+    m_Position: {x: -1.5621411, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0.5
+    m_DirectBlendParameter: floatHandSpeed
+    m_Mirror: 1
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 52a654bf99db4954caa389ab5863f6e2, type: 2}
+    m_Threshold: 3.250001
+    m_Position: {x: -1.1226516, y: 1.127849}
+    m_TimeScale: 1
+    m_CycleOffset: 0.5
+    m_DirectBlendParameter: floatHandSpeed
+    m_Mirror: 1
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: c048848b0c7c0394e8388ea97623909b, type: 2}
+    m_Threshold: 4.0833344
+    m_Position: {x: 0, y: -1.0961233}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: floatHandSpeed
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 69317ae84f5aa314fa9d74f4de4d30ee, type: 2}
+    m_Threshold: 4.916668
+    m_Position: {x: 0, y: -2.795316}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: floatHandSpeed
+    m_Mirror: 0
+  m_BlendParameter: floatMovDirX
+  m_BlendParameterY: floatMovDirZ
+  m_MinThreshold: 0.083333336
+  m_MaxThreshold: 4.916668
+  m_UseAutomaticThresholds: 0
+  m_NormalizedBlendValues: 0
+  m_BlendType: 3
